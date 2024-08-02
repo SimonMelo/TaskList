@@ -6,13 +6,13 @@ Esta API permite gerenciar uma lista de tarefas. É possível criar, listar, atu
 
 ### 1. Listar Todas as Tarefas
 
-- **URL**: `/api/task`
+- **URL**: `/api/Task`
 - **Método**: `GET`
 - **Descrição**: Recupera todas as tarefas.
 
 ### 2. Obter Tarefa por ID
 
-- **URL**: `/api/task/{id}`
+- **URL**: `/api/Task/{id}`
 - **Método**: `GET`
 - **Parâmetros**: 
   - `id` (Path) - O ID da tarefa que deseja recuperar.
@@ -20,7 +20,7 @@ Esta API permite gerenciar uma lista de tarefas. É possível criar, listar, atu
 
 ### 3. Criar Nova Tarefa
 
-- **URL**: `/api/task`
+- **URL**: `/api/Task`
 - **Método**: `POST`
 - **Descrição**: Adiciona uma nova tarefa.
 - **Body**:
@@ -33,7 +33,7 @@ Esta API permite gerenciar uma lista de tarefas. É possível criar, listar, atu
 
 ### 4. Atualizar Tarefa Existente
 
-- **URL**: `/api/task/{id}`
+- **URL**: `/api/Task/{id}`
 - **Método**: `PUT`
 - **Parâmetros**: 
   - `id` (Path) - O ID da tarefa que deseja atualizar.
@@ -48,7 +48,7 @@ Esta API permite gerenciar uma lista de tarefas. É possível criar, listar, atu
 
 ### 5. Excluir Tarefa
 
-- **URL**: `/api/task/{id}`
+- **URL**: `/api/Task/{id}`
 - **Método**: `DELETE`
 - **Parâmetros**: 
   - `id` (Path) - O ID da tarefa que deseja excluir.
